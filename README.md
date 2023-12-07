@@ -12,17 +12,27 @@
 # Avatarizer
 API REST que usa sensibilidade ao contexto para a customização de avatares.
 
-# Funcionamento
+## Versão
+Avatarizer1.0
+
+## Como clonar o projeto ? 
+```
+https://github.com/TarcisioOliveira2021/Avatarizer-API.git
+```
+
+## Funcionamento
 O Avatarizer funciona da seguinte maneira, durante a requisição feita do cliente para aplicação devem ser passados:
 * Código do avatar base.
 * Latitude do usuário.
 * Longitude do usuário.
 
 O código do avatar base são **A_001**, **A_002**, **A_003**, **A_004**, representando:
-* A_001 = Um rapaz careca.
-* A_002 = Um moça de cabelo colorido.
-* A_003 = Um rapaz de black-power.
-* A_004 = Uma moça com vitiligo.
+| Código avatar | Avatar Base |
+|---|---|
+| A_001 | ![Imagem 1](https://github.com/TarcisioOliveira2021/Avatarizer-API/blob/main/readme-imagens/A_001.png) |
+| A_002 | ![Imagem 2](https://github.com/TarcisioOliveira2021/Avatarizer-API/blob/main/readme-imagens/A_002.png) |
+| A_003 | ![Imagem 3](https://github.com/TarcisioOliveira2021/Avatarizer-API/blob/main/readme-imagens/A_003.png) |
+| A_004 | ![Imagem 3](https://github.com/TarcisioOliveira2021/Avatarizer-API/blob/main/readme-imagens/A_004.png) |
 
 Executando a Aplicação localmente os testes de requisição podem ser feitos usando:
 - Swagger: *http://localhost:8080/swagger-ui-avatarizer.html* 
