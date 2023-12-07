@@ -31,7 +31,7 @@ O código do avatar base são **A_001**, **A_002**, **A_003**, **A_004**, repres
 
 Executando a Aplicação localmente os testes de requisição podem ser feitos usando:
 - Swagger: *http://localhost:8080/swagger-ui-avatarizer.html* 
-- URL: *http://localhost:8080/avatar/dados/codigoDoAvatar* (Onde o código do avatar segue a lista citada acima).
+- URL: *http://localhost:8080/avatar/dados/codigoDoAvatar*
 
 Preview usanado Swagger:
 - https://github.com/TarcisioOliveira2021/Avatarizer-API/assets/79255361/75a48630-7464-41e7-80b5-c1780a7e660e
