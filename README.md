@@ -28,11 +28,11 @@ Executando a Aplicação localmente os testes de requisição podem ser feitos u
 - Swagger: *http://localhost:8080/swagger-ui-avatarizer.html* 
 - URL: *http://localhost:8080/avatar/dados/codigoDoAvatar* (Onde o código do avatar segue a lista citada acima).
 
-Preview usnado Swagger:
-https://github.com/TarcisioOliveira2021/Avatarizer-API/assets/79255361/75a48630-7464-41e7-80b5-c1780a7e660e
+Preview usanado Swagger:
+- https://github.com/TarcisioOliveira2021/Avatarizer-API/assets/79255361/75a48630-7464-41e7-80b5-c1780a7e660e
 
 Preview usando URL:
-https://github.com/TarcisioOliveira2021/Avatarizer-API/assets/79255361/25af43c8-faf6-48a6-aece-4b8d25f2304c
+- https://github.com/TarcisioOliveira2021/Avatarizer-API/assets/79255361/25af43c8-faf6-48a6-aece-4b8d25f2304c
 
 
 
