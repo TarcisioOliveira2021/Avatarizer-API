@@ -9,5 +9,23 @@
 </p>
 
 
-# Avatarizer-API
+# Avatarizer
 API REST que usa sensibilidade ao contexto para a customização de avatares.
+
+# Funcionamento
+O Avatarizer funciona da seguinte maneira, durante a requisição feita do cliente para aplicação devem ser passados:
+* Código do avatar base.
+* Latitude do usuário.
+* Longitude do usuário.
+
+O código do avatar base são **A_001**, **A_002**, **A_003**, **A_004**, representando:
+* A_001 = Um rapaz careca.
+* A_002 = Um moça de cabelo colorido.
+* A_003 = Um rapaz de black-power.
+* A_004 = Uma moça com vitiligo.
+
+Executando a Aplicação localmente os testes de requisição podem ser feitos usando:
+- Swagger: *http://localhost:8080/swagger-ui-avatarizer.html* 
+- URL: *http://localhost:8080/avatar/dados/codigoDoAvatar* (Onde o código do avatar segue a lista citada acima).
+
+
