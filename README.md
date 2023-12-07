@@ -21,7 +21,8 @@ O Avatarizer funciona da seguinte maneira, durante a requisição feita do clien
 * Latitude do usuário.
 * Longitude do usuário.
 
-O código do avatar base são **A_001**, **A_002**, **A_003**, **A_004**, representando:
+Após isso será o servidor do Avatarizer vai processar a requisição no "processador de contexto" que a partir da regras definidas vai devolver o avatar customizado, como mostrado nos previews abaixo.
+
 | Código avatar | Avatar Base |
 |---|---|
 | A_001 | ![Imagem 1](https://github.com/TarcisioOliveira2021/Avatarizer-API/blob/main/readme-imagens/A_001.png) |
