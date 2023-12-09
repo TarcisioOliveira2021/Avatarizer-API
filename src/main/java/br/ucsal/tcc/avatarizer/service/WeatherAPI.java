@@ -23,4 +23,8 @@ public class WeatherAPI {
     	apiUrl = apiUrl.replace("$longitude$", longitude);
         return apiUrl;
     }
+
+    public void resetUrl() {
+    	apiUrl = Urls.url;
+    }
 }

@@ -143,6 +143,7 @@ public class AvatarService {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		weatherAPI.resetUrl();
 		return avatar;
 	}
 
