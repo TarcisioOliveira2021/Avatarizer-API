@@ -70,8 +70,8 @@ public class DefaultDataBase {
             String sql = "INSERT INTO avatar_table (avatar_code, definition, description, file_name, identification, link, type) " +
                     "VALUES (?, ?, ?, ?, ?, ?, ?)";
 
-            try (Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/Avatarizer",
-                    "postgres", "postgres");
+            try (Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/avatarizer",
+                    "postgres", "@liss0n2912M");
                  PreparedStatement pstmt = conn.prepareStatement(sql, new String[]{"id"})) {
 
                 pstmt.setString(1, avatar.getAvatarCode());

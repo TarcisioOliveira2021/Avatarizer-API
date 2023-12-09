@@ -20,7 +20,7 @@ public class AvatarController {
 	}
 // @RequestParam String latitude, @RequestParam String longitude
 	@GetMapping("/dados/{codigo}")
-	public ResponseEntity<?> obterDadosDaAPI(@PathVariable String codigo) {
-		return ResponseEntity.ok().body(avatarService.filtro(codigo, "-12.9704", "-38.5124"));
+	public ResponseEntity<?> obterDadosDaAPI(@PathVariable String codigo, @RequestParam String latitude, @RequestParam String longitude) {
+		return ResponseEntity.ok().body(avatarService.filtro(codigo, latitude, longitude));
 	}
 }

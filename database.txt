@@ -1,4 +1,4 @@
-A_001_Base_001 - https://cdn.discordapp.com/attachments/1181971126637838416/1181971285186707588/A_001_Base_001.png
+A_001_Base_001_Default - https://cdn.discordapp.com/attachments/1181971126637838416/1181971285186707588/A_001_Base_001.png
 A_001_Base_002_Mask - https://cdn.discordapp.com/attachments/1181971126637838416/1181971285455159326/A_001_Base_002_Mask.png
 A_001_Cold_001_Cold - https://cdn.discordapp.com/attachments/1181971126637838416/1181971285711007744/A_001_Cold_001_Cold.png
 A_001_Cold_002_Umbrella - https://cdn.discordapp.com/attachments/1181971126637838416/1181971285979431013/A_001_Cold_002_Umbrella.png
@@ -18,7 +18,7 @@ A_001_TD_009_Pascoa - https://cdn.discordapp.com/attachments/1181971126637838416
 A_001_TD_010_SaoJoao - https://cdn.discordapp.com/attachments/1181971126637838416/1181971551516643418/A_001_TD_010_SaoJoao.png
 A_001_TD_011_SaoJoao - https://cdn.discordapp.com/attachments/1181971126637838416/1181971568197369896/A_001_TD_011_SaoJoao.png
 A_001_TD_012_Christmas - https://cdn.discordapp.com/attachments/1181971126637838416/1181971568574869594/A_001_TD_012_Christmas.png
-A_002_Base_001 - https://cdn.discordapp.com/attachments/1181971126637838416/1181972137595117628/A_002_Base_001.png
+A_002_Base_001_Default - https://cdn.discordapp.com/attachments/1181971126637838416/1181972137595117628/A_002_Base_001.png
 A_002_Cold_001_Cold - https://cdn.discordapp.com/attachments/1181971126637838416/1181972137834196992/A_002_Cold_001_Cold.png
 A_002_Cold_002_Umbrella - https://cdn.discordapp.com/attachments/1181971126637838416/1181972138073260113/A_002_Cold_002_Umbrella.png
 A_002_Hot_001_WorkingDays - https://cdn.discordapp.com/attachments/1181971126637838416/1181972138316537896/A_002_Hot_001_WorkingDays.png
@@ -37,7 +37,7 @@ A_002_TD_009_Pascoa - https://cdn.discordapp.com/attachments/1181971126637838416
 A_002_TD_010_SaoJoao - https://cdn.discordapp.com/attachments/1181971126637838416/1181972174861521007/A_002_TD_010_SaoJoao.png
 A_002_TD_011_SaoJoao - https://cdn.discordapp.com/attachments/1181971126637838416/1181972183870865498/A_002_TD_011_SaoJoao.png
 A_002_TD_012_Christmas - https://cdn.discordapp.com/attachments/1181971126637838416/1181972184621649930/A_002_TD_012_Christmas.png
-A_003_Base_001 - https://cdn.discordapp.com/attachments/1181971126637838416/1181972282311188522/A_003_Base_001.png
+A_003_Base_001_Default - https://cdn.discordapp.com/attachments/1181971126637838416/1181972282311188522/A_003_Base_001.png
 A_003_Cold_001_Cold - https://cdn.discordapp.com/attachments/1181971126637838416/1181972282608975934/A_003_Cold_001_Cold.png
 A_003_Cold_002_Umbrella - https://cdn.discordapp.com/attachments/1181971126637838416/1181972282986471565/A_003_Cold_002_Umbrella.png
 A_003_Hot_001_WorkingDays - https://cdn.discordapp.com/attachments/1181971126637838416/1181972283355562044/A_003_Hot_001_WorkingDays.png
@@ -56,7 +56,7 @@ A_003_TD_009_Pascoa - https://cdn.discordapp.com/attachments/1181971126637838416
 A_003_TD_010_SaoJoao - https://cdn.discordapp.com/attachments/1181971126637838416/1181972337088798832/A_003_TD_010_SaoJoao.png
 A_003_TD_011_SaoJoao - https://cdn.discordapp.com/attachments/1181971126637838416/1181972337344663612/A_003_TD_011_SaoJoao.png
 A_003_TD_012_Christmas - https://cdn.discordapp.com/attachments/1181971126637838416/1181980993951903815/A_003_TD_012_Christmas.png
-A_004_Base_001 - https://cdn.discordapp.com/attachments/1181971126637838416/1181972417661370368/A_004_Base_001.png
+A_004_Base_001_Default - https://cdn.discordapp.com/attachments/1181971126637838416/1181972417661370368/A_004_Base_001.png
 A_004_Cold_001_Cold - https://cdn.discordapp.com/attachments/1181971126637838416/1181972418097582180/A_004_Cold_001_Cold.png
 A_004_Cold_002_Umbrella - https://cdn.discordapp.com/attachments/1181971126637838416/1181972418374410330/A_004_Cold_002_Umbrella.png
 A_004_Hot_001_WorkingDays - https://cdn.discordapp.com/attachments/1181971126637838416/1181972418693169192/A_004_Hot_001_WorkingDays.png
