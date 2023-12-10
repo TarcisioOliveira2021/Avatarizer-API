@@ -5,9 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/java-%23000000.svg?style=for-the-badge&logo=openjdk&logoColor=white">
   <img src="https://img.shields.io/badge/spring-%23000000.svg?style=for-the-badge&logo=spring&logoColor=white">
-  <img src="https://img.shields.io/badge/-Swagger-%23000000?style=for-the-badge&logo=swagger&logoColor=white">
 </p>
-
 
 # Avatarizer
 API REST que usa sensibilidade ao contexto para a customização de avatares.
@@ -15,6 +13,39 @@ API REST que usa sensibilidade ao contexto para a customização de avatares.
 ## Versão
 Avatarizer1.0
 * Nesta versão a aplicação atende apenas o contexto climatologico brasileiro com as temperaturas váriando de 22 ~ 29 graus celsius.
+
+## Como clonar o projeto ? 
+```
+https://github.com/TarcisioOliveira2021/Avatarizer-API.git
+```
+## Como rodar o projeto ?
+Precisa detalhar.
+
+## Como contribuir no projeto ?
+Agradecemos o seu interesse em contribuir para o nosso projeto! Se você deseja fazer uma alteração ou adicionar um novo recurso, siga estes passos:
+
+1. Crie um Fork do Projeto:
+Faça um fork deste repositório para a sua própria conta no GitHub. Isso criará uma cópia do projeto que você pode modificar.
+
+2. Realize as Alterações Propostas:
+Faça as alterações necessárias no seu fork. Certifique-se de seguir as práticas recomendadas de codificação.
+
+3. Solicite um Pull Request:
+Quando estiver satisfeito com as suas alterações, envie um pull request. Estamos ansiosos para revisar suas contribuições!
+
+4. Análise com Cuidado:
+A nossa equipe analisará o seu pull request com atenção. Isso inclui verificar o código, testar as funcionalidades propostas e garantir que tudo esteja alinhado com os padrões do projeto.
+
+5. Integração ao Projeto:
+Se tudo estiver em ordem, estaremos felizes em integrar as suas alterações ao projeto principal. Agradecemos a sua colaboração!
+
+## Documentação da API
+A nossa API é documentada usando o padrão OpenAPI, e a documentação interativa pode ser acessada através do Swagger UI. Isso facilita a compreensão dos endpoints disponíveis, parâmetros, e respostas esperadas.
+Para acessar a documentação da API, basta iniciar o servidor e visitar o seguinte URL:
+- Swagger: *http://localhost:8080/swagger-ui-avatarizer.html* 
+- URL: *http://localhost:8080/avatar/dados/codigoAvatar?latitude=X&longitude=Y*
+
+Exemplo de consulta completo: http://localhost:8080/avatar/dados/A_001?latitude=-9.974&longitude=-67.8076
 
 ## Avatares base
 | Código avatar | Avatar Base |
@@ -44,10 +75,6 @@ Preview usanado Swagger:
 Preview usando URL:
 - https://github.com/TarcisioOliveira2021/Avatarizer-API/assets/79255361/407f22ff-20e7-472b-9e39-384f985b947b
 
-### URL's de consumo local
-- Swagger: *http://localhost:8080/swagger-ui-avatarizer.html* 
-- URL: *http://localhost:8080/avatar/dados/codigoAvatar?latitude=X&longitude=Y*
 
-Exemplo : http://localhost:8080/avatar/dados/A_001?latitude=-9.974&longitude=-67.8076
 
 
