@@ -14,6 +14,7 @@ API REST que usa sensibilidade ao contexto para a customização de avatares.
 
 ## Versão
 Avatarizer1.0
+* Nesta versão a aplicação atende apenas o contexto climatologico brasileiro com as temperaturas váriando de 22 ~ 29 graus celsius.
 
 ## Funcionamento
 O Avatarizer funciona da seguinte maneira, durante a requisição feita do cliente para aplicação devem ser passados:
