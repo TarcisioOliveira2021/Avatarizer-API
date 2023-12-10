@@ -26,8 +26,9 @@ Avatarizer1.0
 
 ## Alterações de contexto
 Nas imagens a seguir estão definidas as regras que estão definidas dentro do processador de contexto.
-![Imagem 1](https://github.com/TarcisioOliveira2021/Avatarizer-API/blob/main/readme-imagens/AdaptacoesDeContexto1.png)
-![Imagem 2](https://github.com/TarcisioOliveira2021/Avatarizer-API/blob/main/readme-imagens/AdaptacoesDeContexto2.png)
+![Imagem 3](https://github.com/TarcisioOliveira2021/Avatarizer-API/blob/main/readme-imagens/AdaptacoesDeContexto1.png)
+![Imagem 1](https://github.com/TarcisioOliveira2021/Avatarizer-API/blob/main/readme-imagens/AdaptacoesDeContexto2.png)
+![Imagem 2](https://github.com/TarcisioOliveira2021/Avatarizer-API/blob/main/readme-imagens/AdaptacoesDeContexto3.png)
 
 ## Funcionamento
 O Avatarizer funciona da seguinte maneira, durante a requisição feita do cliente para aplicação devem ser passados:
