@@ -30,16 +30,16 @@ Após isso será o servidor do Avatarizer vai processar a requisição no "proce
 | A_003 | ![Imagem 3](https://github.com/TarcisioOliveira2021/Avatarizer-API/blob/main/readme-imagens/A_003.png) |
 | A_004 | ![Imagem 3](https://github.com/TarcisioOliveira2021/Avatarizer-API/blob/main/readme-imagens/A_004.png) |
 
+
 Executando a Aplicação localmente os testes de requisição podem ser feitos usando:
 - Swagger: *http://localhost:8080/swagger-ui-avatarizer.html* 
 - URL: *http://localhost:8080/avatar/dados/codigoDoAvatar*
 
 Preview usanado Swagger:
-- https://github.com/TarcisioOliveira2021/Avatarizer-API/assets/79255361/75a48630-7464-41e7-80b5-c1780a7e660e
+- https://github.com/TarcisioOliveira2021/Avatarizer-API/assets/79255361/ccf6b783-7e2d-4ce7-b6e2-20908734ca21
 
 Preview usando URL:
-- https://github.com/TarcisioOliveira2021/Avatarizer-API/assets/79255361/25af43c8-faf6-48a6-aece-4b8d25f2304c
-
+- https://github.com/TarcisioOliveira2021/Avatarizer-API/assets/79255361/407f22ff-20e7-472b-9e39-384f985b947b
 
 
 
