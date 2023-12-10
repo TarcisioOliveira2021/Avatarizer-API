@@ -47,6 +47,7 @@ Preview usando URL:
 ### URL's de consumo local
 - Swagger: *http://localhost:8080/swagger-ui-avatarizer.html* 
 - URL: *http://localhost:8080/avatar/dados/codigoAvatar?latitude=X&longitude=Y*
-- Exemplo : http://localhost:8080/avatar/dados/A_001?latitude=-9.974&longitude=-67.8076
+
+Exemplo : http://localhost:8080/avatar/dados/A_001?latitude=-9.974&longitude=-67.8076
 
 
