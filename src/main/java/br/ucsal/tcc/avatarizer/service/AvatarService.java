@@ -46,9 +46,9 @@ public class AvatarService {
 			String dayOfWeek = dateTime.getDayOfWeek().toString();
 			currentWeather.setTemperature_2m(Math.round(currentWeather.getTemperature_2m()) + 1);
 
-			avatar = validadeHoliday(avatar, codigo, month, day, hour, minute);
+			avatar = validateHoliday(avatar, codigo, month, day, hour, minute);
 			if (avatar.isEmpty()) {
-				avatar = validadeWeather(avatar, codigo, month, day, hour, minute, currentWeather, dayOfWeek);
+				avatar = validateWeather(avatar, codigo, month, day, hour, minute, currentWeather, dayOfWeek);
 			}
 
 		} catch (Exception e) {
@@ -65,7 +65,7 @@ public class AvatarService {
 		return avatarOptional.get().getLink();
 	}
 
-	public String validadeHoliday(String avatar, String codigo, int month, int day, int hour, int minute) {
+	public String validateHoliday(String avatar, String codigo, int month, int day, int hour, int minute) {
 		if (month == 10 && day == 31) {
 			// Mumia
 			if (month == 10 && day == 31 && hour >= 0 && hour <= 12) {
@@ -121,7 +121,7 @@ public class AvatarService {
 		return avatar;
 	}
 
-	public String validadeWeather(String avatar, String codigo, int month, int day, int hour, int minute,
+	public String validateWeather(String avatar, String codigo, int month, int day, int hour, int minute,
 			CurrentWeather currentWeather, String dayOfWeek) {
 
 		if (currentWeather.getTemperature_2m() <= 22) {
