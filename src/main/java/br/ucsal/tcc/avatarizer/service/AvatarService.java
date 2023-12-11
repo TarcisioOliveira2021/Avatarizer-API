@@ -68,10 +68,10 @@ public class AvatarService {
 	public String validateHoliday(String avatar, String codigo, int month, int day, int hour, int minute) {
 		if (month == 10 && day == 31) {
 			// Mumia
-			if (month == 10 && day == 31 && hour >= 0 && hour <= 12) {
+			if (hour >= 0 && hour <= 12) {
 				avatar = getAvatar(codigo, "007", "TD");
 
-			} else if (month == 10 && day == 31 && hour >= 12 && hour <= 23 && minute < 58) {
+			} else if (hour >= 12 && hour <= 23 && minute < 58) {
 				// Dracula
 				avatar = getAvatar(codigo, "008", "TD");
 			}
@@ -162,6 +162,13 @@ public class AvatarService {
 					avatar = getAvatar(codigo, "001", "Base");
 
 				}
+			} else {
+				if(currentWeather.getTemperature_2m() > 28) {
+					avatar = getAvatar(codigo, "005", "Hot");
+				} else {
+					avatar = getAvatar(codigo, "001", "Base");
+				}
+
 			}
 		}
 		return avatar;
