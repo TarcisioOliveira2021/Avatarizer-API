@@ -6,6 +6,7 @@ A_001_Hot_001_WorkingDays - https://cdn.discordapp.com/attachments/1181971126637
 A_001_Hot_002_MuchHot - https://cdn.discordapp.com/attachments/1181971126637838416/1181971286491148338/A_001_Hot_002_MuchHot.png
 A_001_Hot_003_Weekend - https://cdn.discordapp.com/attachments/1181971126637838416/1181971286751199323/A_001_Hot_003_Weekend.png
 A_001_Hot_004_WeekendSunGlass - https://cdn.discordapp.com/attachments/1181971126637838416/1181971286990270494/A_001_Hot_004_WeekendSunGlass.png
+A_001_Hot_005_Default - https://cdn.discordapp.com/attachments/1181971126637838416/1183516000122052648/A_001_Hot_005_Default.png
 A_001_TD_001_NewYear - https://cdn.discordapp.com/attachments/1181971126637838416/1181971551747321938/A_001_TD_001_NewYear.png
 A_001_TD_002_NewYearFireWorks - https://cdn.discordapp.com/attachments/1181971126637838416/1181971551957024841/A_001_TD_002_NewYearFireWorks.png
 A_001_TD_003_Carnaval - https://cdn.discordapp.com/attachments/1181971126637838416/1181971552187732030/A_001_TD_003_Carnaval.png
@@ -25,6 +26,7 @@ A_002_Hot_001_WorkingDays - https://cdn.discordapp.com/attachments/1181971126637
 A_002_Hot_002_MuchHot - https://cdn.discordapp.com/attachments/1181971126637838416/1181972138635309066/A_002_Hot_002_MuchHot.png
 A_002_Hot_003_WeekendSunGlass - https://cdn.discordapp.com/attachments/1181971126637838416/1181972138870177852/A_002_Hot_003_WeekendSunGlass.png
 A_002_Hot_004_Weekend - https://cdn.discordapp.com/attachments/1181971126637838416/1181972139105067058/A_002_Hot_004_Weekend.png
+A_002_Hot_005_Default - https://cdn.discordapp.com/attachments/1181971126637838416/1183515999870398564/A_002_Hot_005_Default.png
 A_002_TD_001_NewYear - https://cdn.discordapp.com/attachments/1181971126637838416/1181972175184478228/A_002_TD_001_NewYear.png
 A_002_TD_002_NewYearFireWorks - https://cdn.discordapp.com/attachments/1181971126637838416/1181972175469686974/A_002_TD_002_NewYearFireWorks.png
 A_002_TD_003_Carnaval - https://cdn.discordapp.com/attachments/1181971126637838416/1181972175725547601/A_002_TD_003_Carnaval.png
@@ -44,6 +46,7 @@ A_003_Hot_001_WorkingDays - https://cdn.discordapp.com/attachments/1181971126637
 A_003_Hot_002_MuchHot - https://cdn.discordapp.com/attachments/1181971126637838416/1181972284144091187/A_003_Hot_003_Weekend.png
 A_003_Hot_003_Weekend - https://cdn.discordapp.com/attachments/1181971126637838416/1181972284144091187/A_003_Hot_003_Weekend.png
 A_003_Hot_004_WeekendSunGlass - https://cdn.discordapp.com/attachments/1181971126637838416/1181972284987162634/A_003_Hot_004_WeekendSunGlass.png
+A_003_Hot_005_Default - https://cdn.discordapp.com/attachments/1181971126637838416/1183515999631331378/A_003_Hot_005_Default.png
 A_003_TD_001_NewYear - https://cdn.discordapp.com/attachments/1181971126637838416/1181972319812472863/A_003_TD_001_NewYear.png
 A_003_TD_002_NewYearFireWorks - https://cdn.discordapp.com/attachments/1181971126637838416/1181972320080887870/A_003_TD_002_NewYearFireWorks.png
 A_003_TD_003_Carnaval - https://cdn.discordapp.com/attachments/1181971126637838416/1181972320345145344/A_003_TD_003_Carnaval.png
@@ -63,6 +66,7 @@ A_004_Hot_001_WorkingDays - https://cdn.discordapp.com/attachments/1181971126637
 A_004_Hot_002_MuchHot - https://cdn.discordapp.com/attachments/1181971126637838416/1181972419171323965/A_004_Hot_002_MuchHot.png
 A_004_Hot_003_Weekend - https://cdn.discordapp.com/attachments/1181971126637838416/1181972419448152105/A_004_Hot_003_Weekend.png
 A_004_Hot_004_WeekendSunGlass - https://cdn.discordapp.com/attachments/1181971126637838416/1181972419754328094/A_004_Hot_004_WeekendSunGlass.png
+A_004_Hot_005_Default - https://cdn.discordapp.com/attachments/1181971126637838416/1183515999375466596/A_004_Hot_005_Default.png
 A_004_TD_001_NewYear - https://cdn.discordapp.com/attachments/1181971126637838416/1181972457771499582/A_004_TD_001_NewYear.png
 A_004_TD_002_NewYearFireWorks - https://cdn.discordapp.com/attachments/1181971126637838416/1181972458119647323/A_004_TD_002_NewYearFireWorks.png
 A_004_TD_003_Carnaval - https://cdn.discordapp.com/attachments/1181971126637838416/1181972458467770378/A_004_TD_003_Carnaval.png
