@@ -20,7 +20,6 @@ public class Avatar {
 	private String definition;
 	private String description;
 	private String link;
-
 	public Avatar() {
 
 	}
@@ -29,6 +28,16 @@ public class Avatar {
 			String description, String link) {
 		super();
 		this.id = id;
+		this.fileName = fileName;
+		this.avatarCode = avatarCode;
+		this.type = type;
+		this.identification = identification;
+		this.definition = definition;
+		this.description = description;
+		this.link = link;
+	}
+
+	public Avatar(String fileName, String avatarCode, String type, String identification, String definition, String description, String link) {
 		this.fileName = fileName;
 		this.avatarCode = avatarCode;
 		this.type = type;

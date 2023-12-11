@@ -8,7 +8,11 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
+import br.ucsal.tcc.avatarizer.repository.AvatarRepository;
 import org.springframework.stereotype.Component;
 
 import br.ucsal.tcc.avatarizer.modal.Avatar;
@@ -17,18 +21,25 @@ import jakarta.annotation.PostConstruct;
 @Component
 public class DefaultDataBase {
 
+    private final AvatarRepository avatarRepository;
+
     private String caminhoArquivo = ".//database.txt";
+
+    public DefaultDataBase(AvatarRepository avatarRepository) {
+        this.avatarRepository = avatarRepository;
+    }
 
     @PostConstruct
     private void inserirDatabase() {
         try (BufferedReader br = new BufferedReader(new FileReader(caminhoArquivo))) {
             String linha;
+            Map<String, Avatar> mapAvatar = avatarRepository.findAll().stream()
+                    .collect(Collectors.toMap(Avatar::getFileName, avatar -> avatar));
             while ((linha = br.readLine()) != null) {
                 Avatar avatar = parseAvatar(linha);
 
-                if (avatar != null) {
-                    System.out.println(avatar);
-                    insertAvatarIntoDatabase(avatar);
+                if (avatar != null && !mapAvatar.containsKey(avatar.getFileName())){
+                    avatarRepository.save(avatar);
                 }
             }
         } catch (IOException e) {
@@ -49,8 +60,8 @@ public class DefaultDataBase {
                 String link = bigpart[1];
                 
                 // Verifica se todas as partes necessárias estão presentes
-                if (!fileName.isEmpty() && !avatarCode.isEmpty() && !type.isEmpty() && !identification.isEmpty() && !definition.isEmpty()) {
-                    return new Avatar(null, fileName, avatarCode, type, identification, definition, "", link);
+                if (!type.isEmpty() && !identification.isEmpty() && !definition.isEmpty()) {
+                    return new Avatar(fileName, avatarCode, type, identification, definition, "", link);
                 } 
             }
         } catch (Exception e) {
@@ -60,41 +71,4 @@ public class DefaultDataBase {
         }
 		return null;
     }
-
-
-
-
-    private void insertAvatarIntoDatabase(Avatar avatar) {
-        // Verifica se o avatar é nulo antes de prosseguir
-        if (avatar != null) {
-            String sql = "INSERT INTO avatar_table (avatar_code, definition, description, file_name, identification, link, type) " +
-                    "VALUES (?, ?, ?, ?, ?, ?, ?)";
-
-            try (Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/avatarizer",
-                    "postgres", "@liss0n2912M");
-                 PreparedStatement pstmt = conn.prepareStatement(sql, new String[]{"id"})) {
-
-                pstmt.setString(1, avatar.getAvatarCode());
-                pstmt.setString(2, avatar.getDefinition());
-                pstmt.setString(3, avatar.getDescription());
-                pstmt.setString(4, avatar.getFileName());
-                pstmt.setString(5, avatar.getIdentification());
-                pstmt.setString(6, avatar.getLink());
-                pstmt.setString(7, avatar.getType());
-                pstmt.executeUpdate();
-
-                try (ResultSet generatedKeys = pstmt.getGeneratedKeys()) {
-                    if (generatedKeys.next()) {
-                        Long generatedId = generatedKeys.getLong(1);
-                        avatar.setId(generatedId);
-                    } else {
-                        throw new SQLException("Failed to retrieve generated ID.");
-                    }
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-    
 }
