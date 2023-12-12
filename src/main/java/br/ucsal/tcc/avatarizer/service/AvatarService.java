@@ -52,6 +52,7 @@ public class AvatarService {
 			}
 
 		} catch (Exception e) {
+			weatherAPI.resetUrl();
 			e.printStackTrace();
 		}
 
