@@ -18,10 +18,13 @@ public class WeatherAPI {
         return restTemplate.getForObject(apiUrl, String.class);
     }
 
-    public String obterDadosDaAPI(String latitude, String longitude) {
-    	apiUrl = apiUrl.replace("$latitude$", latitude);
-    	apiUrl = apiUrl.replace("$longitude$", longitude);
-        return apiUrl;
+    public void obterDadosDaAPI(String latitude, String longitude) {
+    	apiUrl = apiUrl.replace("$latitude$", limparString(latitude));
+    	apiUrl = apiUrl.replace("$longitude$", limparString(longitude));
+    }
+
+    public String limparString(String string) {
+        return string.replaceAll("[^0-9.]", "");
     }
 
     public void resetUrl() {
