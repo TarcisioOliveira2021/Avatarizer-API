@@ -24,7 +24,7 @@ public class WeatherAPI {
     }
 
     public String limparString(String string) {
-        return string.replaceAll("[^0-9.]", "");
+        return string.replaceAll("[^0-9.]^(-0-9.)", "");
     }
 
     public void resetUrl() {
