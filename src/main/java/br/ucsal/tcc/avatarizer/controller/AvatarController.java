@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import br.ucsal.tcc.avatarizer.service.AvatarService;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping(value = "/avatar")
 public class AvatarController {
 
@@ -15,7 +16,7 @@ public class AvatarController {
 		this.avatarService = avatarService;
 	}
 // @RequestParam String latitude, @RequestParam String longitude
-	@CrossOrigin(origins = "*")
+
 	@GetMapping("/dados/{codigo}")
 	public ResponseEntity<?> obterDadosDaAPI(@PathVariable String codigo, @RequestParam String latitude, @RequestParam String longitude) {
 		return ResponseEntity.ok().body(avatarService.filtro(codigo, latitude, longitude));
