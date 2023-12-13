@@ -44,7 +44,7 @@ public class AvatarService {
 			int hour = dateTime.getHour();
 			int minute = dateTime.getMinute();
 			String dayOfWeek = dateTime.getDayOfWeek().toString();
-			currentWeather.setTemperature_2m(Math.round(currentWeather.getTemperature_2m()) + 1);
+			currentWeather.setTemperature_2m(currentWeather.getTemperature_2m() + 1);
 
 			avatar = validateHoliday(avatar, codigo, month, day, hour, minute);
 			if (avatar.isEmpty()) {
@@ -140,28 +140,29 @@ public class AvatarService {
 			if (month == 12 || (month >= 1 && month <= 3)) {
 				boolean weekend = dayOfWeek.equals("FRIDAY") || dayOfWeek.equals("SATURDAY")
 						|| dayOfWeek.equals("SUNDAY");
+				if (weekend){
+					if (currentWeather.getTemperature_2m() >= 28 && currentWeather.getTemperature_2m() <= 29 && hour >= 11 && hour <= 14) {
+						// praia de oculos
+						avatar = getAvatar(codigo, "004", "Hot");
 
-				if (weekend && (currentWeather.getTemperature_2m() >= 28
-						&& currentWeather.getTemperature_2m() <= 29) && (hour >= 11 && hour <= 14)) {
-					// praia de oculos
-					avatar = getAvatar(codigo, "004", "Hot");
+					} else if (currentWeather.getTemperature_2m() > 29 && hour >= 11 && hour <= 14) {
+						// Praia oculos calor
+						avatar = getAvatar(codigo, "003", "Hot");
 
-				} else if (weekend && (currentWeather.getTemperature_2m() > 29) && (hour >= 11 && hour <= 14)) {
-					// Praia oculos calor
-					avatar = getAvatar(codigo, "003", "Hot");
+					} else if (currentWeather.getTemperature_2m() > 29) {
+						// Praia com calor
+						avatar = getAvatar(codigo, "002", "Hot");
 
-				} else if (weekend && (currentWeather.getTemperature_2m() > 29)) {
-					// Praia com calor
-					avatar = getAvatar(codigo, "002", "Hot");
-
-				} else if (weekend && (currentWeather.getTemperature_2m() >= 28
-						&& currentWeather.getTemperature_2m() <= 29)) {
-					// Praia
-					avatar = getAvatar(codigo, "001", "Hot");
-
-				} else {
-					avatar = getAvatar(codigo, "001", "Base");
-
+					} else if (currentWeather.getTemperature_2m() >= 28 && currentWeather.getTemperature_2m() <= 29) {
+						// Praia
+						avatar = getAvatar(codigo, "001", "Hot");
+					}
+				}else{
+					if(currentWeather.getTemperature_2m() > 28) {
+						avatar = getAvatar(codigo, "005", "Hot");
+					} else {
+						avatar = getAvatar(codigo, "001", "Base");
+					}
 				}
 			} else {
 				if(currentWeather.getTemperature_2m() > 28) {
