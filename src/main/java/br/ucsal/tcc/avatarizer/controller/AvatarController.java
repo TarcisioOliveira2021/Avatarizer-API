@@ -1,11 +1,7 @@
 package br.ucsal.tcc.avatarizer.controller;
 
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import br.ucsal.tcc.avatarizer.service.AvatarService;
 
@@ -19,6 +15,7 @@ public class AvatarController {
 		this.avatarService = avatarService;
 	}
 // @RequestParam String latitude, @RequestParam String longitude
+	@CrossOrigin(origins = "*")
 	@GetMapping("/dados/{codigo}")
 	public ResponseEntity<?> obterDadosDaAPI(@PathVariable String codigo, @RequestParam String latitude, @RequestParam String longitude) {
 		return ResponseEntity.ok().body(avatarService.filtro(codigo, latitude, longitude));
