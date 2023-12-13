@@ -14,6 +14,31 @@ API REST que usa sensibilidade ao contexto para a customização de avatares.
 Avatarizer1.0
 * Nesta versão a aplicação atende apenas o contexto climatologico brasileiro com as temperaturas váriando de 22 ~ 29 graus celsius.
 
+## Como clonar o projeto ? 
+```
+https://github.com/TarcisioOliveira2021/Avatarizer-API.git
+```
+## Como rodar o projeto ?
+Precisa detalhar.
+
+## Como contribuir no projeto ?
+Agradecemos o seu interesse em contribuir para o nosso projeto! Se você deseja fazer uma alteração ou adicionar um novo recurso, siga estes passos:
+
+1. Crie um Fork do Projeto:
+Faça um fork deste repositório para a sua própria conta no GitHub. Isso criará uma cópia do projeto que você pode modificar.
+
+2. Realize as Alterações Propostas:
+Faça as alterações necessárias no seu fork. Certifique-se de seguir as práticas recomendadas de codificação.
+
+3. Solicite um Pull Request:
+Quando estiver satisfeito com as suas alterações, envie um pull request. Estamos ansiosos para revisar suas contribuições!
+
+4. Análise com Cuidado:
+A nossa equipe analisará o seu pull request com atenção. Isso inclui verificar o código, testar as funcionalidades propostas e garantir que tudo esteja alinhado com os padrões do projeto.
+
+5. Integração ao Projeto:
+Se tudo estiver em ordem, estaremos felizes em integrar as suas alterações ao projeto principal. Agradecemos a sua colaboração!
+
 ## Documentação da API
 A nossa API é documentada usando o padrão OpenAPI, e a documentação interativa pode ser acessada através do Swagger UI. Isso facilita a compreensão dos endpoints disponíveis, parâmetros, e respostas esperadas.
 Para acessar a documentação da API, basta iniciar o servidor e visitar o seguinte URL:
