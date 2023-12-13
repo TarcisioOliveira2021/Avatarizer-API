@@ -42,10 +42,8 @@ Se tudo estiver em ordem, estaremos felizes em integrar as suas alterações ao 
 ## Documentação da API
 A nossa API é documentada usando o padrão OpenAPI, e a documentação interativa pode ser acessada através do Swagger UI. Isso facilita a compreensão dos endpoints disponíveis, parâmetros, e respostas esperadas.
 Para acessar a documentação da API, basta iniciar o servidor e visitar o seguinte URL:
-- Swagger: *http://localhost:8080/swagger-ui-avatarizer.html* 
-- URL: *http://localhost:8080/avatar/dados/codigoAvatar?latitude=X&longitude=Y*
-
-Exemplo de consulta completo: http://localhost:8080/avatar/dados/A_001?latitude=-9.974&longitude=-67.8076
+- URL produção : *http://avatarizer-prod.up.railway.app/avatar/dados/*
+- Exemplo de consulta completo: http://avatarizer-prod.up.railway.app/avatar/dados/A_001?latitude=-9.974&longitude=-67.8076
 
 ## Avatares base
 | Código avatar | Avatar Base |
@@ -66,15 +64,8 @@ O Avatarizer funciona da seguinte maneira, durante a requisição feita do clien
 * Código do avatar base.
 * Latitude do usuário.
 * Longitude do usuário.
-  
-Após isso será o servidor do Avatarizer vai processar a requisição no "processador de contexto" que a partir da regras definidas vai devolver o avatar customizado, como mostrado nos previews abaixo.
 
-Preview usanado Swagger:
-- https://github.com/TarcisioOliveira2021/Avatarizer-API/assets/79255361/ccf6b783-7e2d-4ce7-b6e2-20908734ca21
-
-Preview usando URL:
-- https://github.com/TarcisioOliveira2021/Avatarizer-API/assets/79255361/407f22ff-20e7-472b-9e39-384f985b947b
-
+Após isso será o servidor do Avatarizer vai processar a requisição no "processador de contexto" que a partir da regras definidas vai devolver o avatar customizado.
 
 
 
