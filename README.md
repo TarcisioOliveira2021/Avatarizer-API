@@ -18,8 +18,6 @@ Avatarizer1.0
 ```
 https://github.com/TarcisioOliveira2021/Avatarizer-API.git
 ```
-## Como rodar o projeto ?
-Precisa detalhar.
 
 ## Como contribuir no projeto ?
 Agradecemos o seu interesse em contribuir para o nosso projeto! Se você deseja fazer uma alteração ou adicionar um novo recurso, siga estes passos:
